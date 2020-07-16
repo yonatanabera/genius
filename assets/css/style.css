@@ -10,6 +10,10 @@
 }
 .body{
     overflow: hidden;
+    font-size: 16px; 
+    font-weight: 300; 
+    color: #666; 
+    line-height: 1.7em;
 }
 
 
@@ -750,7 +754,7 @@
     
     border : none; 
     box-shadow: 0 0 0 1px #eee; 
-    width: 18rem;
+    width: 17rem;
 
 }
 
@@ -847,6 +851,7 @@
     text-align: center;
     opacity: 1;
 
+
   }  
   .services-body #id-services-item .card:hover .card-img-top {
     transition: all .5s ease-in-out; 
@@ -920,6 +925,599 @@
 /* Services section End */
 
 
+
+
+
+/* Service Readmore  */
+
+#readmore{
+    padding: 75px 15px 100px;
+}
+
+/* #readmore .container-expand{
+    margin-left: 70px;
+    
+} */
+#readmore .readmore-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: -5px 0 32px; 
+    line-height: 40px;
+    text-transform: none; 
+    color: #333; 
+    font-style: normal; 
+}
+
+#readmore .readmore-meta{
+    display: block;
+    overflow: hidden; 
+    position: relative; 
+    padding: 0; 
+    margin-bottom: 40px;
+}
+
+#readmore .readmore-meta .readmore-author{
+    /* float: left;  */
+    display: inline-block; 
+    line-height: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ccc; 
+    border-left: 1px solid #eee; 
+}
+
+
+#readmore .readmore-meta .readmore-author .readmore-author-photo{
+    border-radius: 50%; 
+    width: 40px;
+    height: auto; 
+    /* float: left;  */
+    display: inline-block; 
+    margin-right: 10px; 
+    
+}
+
+#readmore .readmore-meta .readmore-author .readmore-author-title{
+    font-size: 12px; 
+    font-weight: 700; 
+    color: #ccc; 
+    margin-bottom: 0; 
+    display: inline-block; 
+}
+
+
+#readmore .readmore-meta .readmore-author .readmore-author-name p{
+    color: #666; 
+    line-height: 16px;
+    font-size: 12px; 
+    text-transform: uppercase; 
+    min-width: 100%;
+    font-weight: 700;
+   
+}
+
+#readmore .readmore-summary .readmore-thumbnail{
+    margin-bottom: 40px; 
+
+}
+
+#readmore .readmore-summary .readmore-thumbnail .readmore-thumbnail-main-image{
+    height: auto; 
+    max-width: 100%; 
+    border: 0; 
+    vertical-align: middle; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content{
+    border: 1px solid #eee; 
+    border-top: 0;
+    padding: 60px 30px;
+}
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-text{
+    flex: 60%; 
+    float: left; 
+    padding-right: 45px;
+    border-right: 1px solid #eee; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-info{
+    padding-left: 30px;
+    flex: 40%; 
+    float: left; 
+    max-width: 100%; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-text .service-description-title{
+    margin: 0;
+    margin-bottom: 10px;
+    color: #333; 
+    font-size: 18px; 
+    font-weight: 600; 
+    font-style: normal; 
+    line-height: 1.6em;
+}
+
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-text .service-description-body{
+    margin: 0 0 10px;
+    margin-bottom: 25px;
+    font-size: 16px; 
+    font-weight: 300; 
+    line-height: 1.7em; 
+    color: #666; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-text .service-description-body-ul{
+    margin-left: -15px; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-text .service-description-body-ul-li{
+    list-style: none; 
+    position: relative; 
+    padding-left: 25x;
+    font-size: 16px;
+    font-weight: 300; 
+    line-height: 1.7em; 
+    color: #666; 
+}
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-text .service-description-body-ul-li::before{
+    content: '';
+    background: #ffd662;
+    /* background: #ff5151;  */
+    width: 6px;
+    height: 6px;
+    border-radius: 50%; 
+    line-height: 24px;
+    position: absolute; 
+    left: 0;
+    top: 9px;
+    box-sizing: box; 
+    transform: translateX(-25px);
+}
+
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-info .service-features-title{
+    margin: 0;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase; 
+    color: #333; 
+    font-weight: 600; 
+    font-style: normal; 
+
+}
+
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-info .service-features-list-ul{
+    margin: 0; 
+    transform: translateX(-40px);
+    min-width: 220px;
+}
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-info .service-features-list-ul-li{
+    list-style: none; 
+    font-size: 13px;
+    border-bottom: 1px solid #eee; 
+    line-height: 25px;
+    padding: 15px 0;
+    font-weight: 300;
+    color: #666; 
+}
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-info .service-features-list-ul-li .fa{
+    color: #ffd662;
+    width: 20px; 
+    text-align: left; 
+    font-size: 13px;
+    line-height: 25px;
+    vertical-align: middle; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-info .service-features-list-ul-li .service-features-list-title{
+    color: #333; 
+    display: inline-block; 
+}
+#readmore .readmore-summary .readmore-summary-content .readmore-tab-content .readmore-tab-overview .readmore-tab-overview-info .service-features-list-ul-li .service-features-list-description{
+    font-weight: 700;
+    min-width: 60px;
+    float: right; 
+    text-align: left; 
+    color: #333; 
+    
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related{
+    clear: both; 
+    overflow: hidden; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-title{
+    text-transform: uppercase;
+    position: relative; 
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 27px;
+    margin: 78px 0 60px; 
+    color: #333; 
+    font-weight: 600;
+    font-style: normal; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-title::after{
+    content: '';
+    height: 1px;
+    position:absolute; 
+    left: 0;
+    bottom: 0;
+    width: 35px;
+    background: #000;
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid{
+    overflow: hidden; 
+    clear: both; 
+    margin: 0 -15px; 
+}
+
+
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .card{
+    
+    border : none; 
+    box-shadow: 0 0 0 1px #eee; 
+    width: 17rem;
+
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .card-body{
+    background-color: #fff; 
+    transition: all, 0.5s;
+}
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .card-title{
+    font-size: 15px;
+    font-weight: 700;
+    display: block; 
+    color: #333; 
+}
+
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .card-text{
+    font-size: 12px; 
+    font-weight: 300; 
+    color: #666; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .shop-star{
+    font-size: 14px;
+    height: 26px; 
+    line-height: 26px;
+    overflow: hidden; 
+    position: relative; 
+    color: #666; 
+    float: left; 
+
+}
+
+/* #readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid a:hover i{
+    color: #00539c;
+    
+} */
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .price{
+    font-size: 16px;
+    font-weight: 700; 
+    color: #666; 
+    line-height: 1.7em; 
+    float:right;
+    
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .card-img-top{
+    height: 100%;
+    width: 100%; 
+    
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .shop-item{
+    margin: 10px; 
+    padding: 15px 15px 10px 0px;
+    border-style: none; 
+    
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #666;
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .btn-quick-view{
+    visibility: hidden;
+    opacity: 0; 
+    margin-bottom: 50px; 
+    padding: 5px 25px; 
+    border-radius: 30px;
+    line-height: 30px;
+    color: #fff; 
+    border: 1px solid #fff;
+    font-weight: 700;
+    position: absolute;
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .card:hover .btn-quick-view {
+    visibility: visible; 
+    background: transparent;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+
+  }  
+  #readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .card:hover .card-img-top {
+    transition: all .5s ease-in-out; 
+    transform: scale(1.1);
+
+  }  
+
+/* 
+.services-body #id-services-item .card:hover .card-body{
+    transform:translate(0, -40px);
+} */
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .card:hover .overlay {
+    opacity: 0.6;
+  }  
+
+  
+  #readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .course-title{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px; 
+    text-transform: none; 
+    font-style: normal; 
+    padding-top: 12px;
+    margin: 0 0 12px;
+    height: 62px;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    text-transform: none; 
+    color: #333; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .course-title a{
+    color: #333; 
+    display: block; 
+    transition: all .3s; 
+    background-color: transparent; 
+    text-decoration: none; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .course-middle .course-author{
+    width: 70%; 
+    float: left; 
+    margin-top: 0; 
+    margin-bottom: 20px; 
+    position: relative; 
+    line-height: 30px;
+
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .course-middle .course-author img{
+    float: left; 
+    margin-right: 10px;
+    border-radius: 50%; 
+    position: relative; 
+    z-index: 3; 
+    width: 30px;
+    height: 30px;
+    /* max-width: 100%;  */
+    border: 0; 
+    
+}
+
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .course-middle .course-author .author-contain{
+    font-size: 12px;
+    font-weight: 700; 
+    text-transform: capitalize; 
+    margin-top: 0; 
+
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .course-middle .course-author .author-contain a{
+    background-color: transparent; 
+    text-decoration: none; 
+    color: #666; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .course-middle .course-students{
+    width: 30%; 
+    float: left; 
+    line-height: 30px;
+    text-align: right; 
+    padding-top: 0; 
+    font-weight: 700;
+    font-size: 12px;
+    color: #666; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .course-middle .course-students .fa{
+    font-size: 14px; 
+    margin-right: 3px;
+
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .shop-star-course{
+    float:left; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .shop-star-course a{
+    text-decoration: none; 
+    color: #f1c40f;; 
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .course-middle::after{
+    content: '';
+    background: #e5e5e5; 
+    height: 1px; 
+    /* width: 80%;  */
+    margin-left: auto; 
+    margin-right: auto ; 
+    display: block; 
+    margin-top : 20px; 
+    margin-bottom : 20px; 
+    transform: translateY(43px);
+}
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid  .course-price{
+    margin-right: 0; 
+    line-height: 30px;
+    color: #ccc; 
+    padding: 0; 
+    border: 0; 
+    font-weight: 700;
+    font-style: normal; 
+    font-size: inherit; 
+    font-size: 14px;
+    color: #2e8ece;
+
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .card .btn-quick-view:hover{
+    background: #ffd662;
+    border:none; 
+    color: #fff; 
+    
+
+}
+
+#readmore .readmore-summary .readmore-summary-content .services-related .services-related-grid .cardimg{
+    position: relative; 
+    overflow:hidden;
+}
+
+/* Readmore side bar start */
+
+/* Side Shope */
+
+#readmore .service-sidebar .side-shop-categories {
+    margin-bottom: 10px;
+}
+
+#readmore .service-sidebar .side-shop-categories h4, 
+#readmore .service-sidebar .side-shop-best-seller h4, 
+#readmore .service-sidebar .side-shop-popular-tags h4{
+    margin-bottom: 25px;
+    font-weight: 500;
+    padding:0;
+    margin-top: 0;
+    line-height: 36px; 
+    text-transform: uppercase; 
+    font-size: 15px; 
+    color: #333;
+}
+
+#readmore .service-sidebar .side-shop-categories ul{
+    margin-left: -9px;
+    margin-top: 0; 
+    margin-bottom: 7px;
+    
+}
+
+#readmore .service-sidebar .side-shop-categories ul li{
+   
+    padding: 5px 0;
+    list-style: disc; 
+    line-height: 20px;
+    font-weight: 400; 
+    font-size: 12px; 
+}
+
+#readmore .service-sidebar .side-shop-categories ul li a{
+    color: #333; 
+    font-weight: 700; 
+    font-size: 12px;
+    text-transform: uppercase; 
+    line-height: 20px;
+    text-decoration: none; 
+}
+
+#readmore .service-sidebar .side-shop-best-seller-flex{
+    display: inline-flex; 
+    flex-wrap: wrap; 
+}
+
+#readmore .service-sidebar .side-shop-best-seller-flex h4{
+    font-size: 12px;
+    text-transform: uppercase; 
+    margin: 0;
+    font-weight: 700; 
+    color: #333; 
+    display: block; 
+    line-height: 12px;
+}
+#readmore .service-sidebar .side-shop-best-seller-flex .shop-star a{
+    text-decoration: none; 
+}
+#readmore .service-sidebar .side-shop-best-seller-flex .shop-star i{
+    margin-top: 3px;
+    height: 20px; 
+    line-height: 20px;
+    font-size: 14px; 
+    display: inline-block; 
+    color: #ccc; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+#readmore .service-sidebar .side-shop-best-seller-flex p{
+    line-height: 12px; 
+    font-weight: 700; 
+    font-size: 12px;
+    color: #333; 
+    margin: 0;
+    padding: 0; 
+}
+
+
+#readmore .service-sidebar .side-shop-popular-tags a{
+    text-decoration: none; 
+    color: #666; 
+    font-size: 12px !important; 
+    padding:3px 8px;
+    line-height: 35px; 
+    border: 1px solid #999; 
+    margin-right: 5px;
+    background-color: transparent;
+    font-weight: 300; 
+}
+#readmore .service-sidebar .side-shop-best-seller .side-shop-flex-2{
+    margin-left: 30px;
+    margin-bottom: 27px; 
+}
+#readmore .service-sidebar .side-shop-best-seller img{
+    width: 80px; 
+}
+
+#readmore .service-sidebar .fixed-side-bar{
+    height: 100%; 
+   
+    position: static; 
+}
+
+
+/* Readmore sidebar end */
+
+
+/* Service Readmore end */
 
 
 /* footer section */
