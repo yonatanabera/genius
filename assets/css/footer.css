@@ -1,0 +1,53 @@
+.footer-section, .copyright-section{
+    color: #bbb;
+    background-color: #111;
+}
+.footer-body p{
+    font-size: small;
+    
+
+}
+.footer-title h6{
+    font-family: regular;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+.footer-title span{
+    border-bottom: solid thin #2e8ece;
+    padding-bottom: 10px ;
+}
+
+.footer-contact-icon .fa{
+    border: solid thin;
+    border-radius: 100%;
+    padding: 10px;
+    max-width: 40px;
+    max-height: 40px;
+   
+}
+
+.footer-section a{
+   color: #bbb;
+   transition: all ease-in-out .3s;
+  
+}
+.footer-section .footer-contact-icon a:hover{
+    color: #2e8ece;
+    text-decoration: none;
+}
+.fa-facebook:hover {
+    background-color: #3b5998;
+    color: white;
+    cursor: pointer;
+    
+}
+.fa-twitter:hover {
+    background-color: #00a0d1;
+    color: white;
+    cursor: pointer;
+}
+.fa-google-plus:hover {
+    background-color: #db4a39;
+    color: white;
+    cursor: pointer;
+}
